@@ -28,7 +28,7 @@ public class _example_to_use_Absolute_Xpath
 		
 		driver.findElement(By.xpath("/html/body/header/nav/div/div[3]/ul/li[2]/div/a/i")).click();
 		
-		driver.findElement(By.xpath("//*[@id=\"header\"]/nav/div/div[3]/ul/li[2]/div/ul/li[5]/a")).click();
+		driver.findElement(By.xpath("//*[@id='header']/nav/div/div[3]/ul/li[2]/div/ul/li[5]/a")).click();
 	}
 
 }
