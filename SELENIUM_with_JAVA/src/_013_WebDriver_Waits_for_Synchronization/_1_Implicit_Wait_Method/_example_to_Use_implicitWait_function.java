@@ -15,7 +15,8 @@ public class _example_to_Use_implicitWait_function
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.get("http://toram.jp");
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS); /* Selenium 3.141.59 */
+		// driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); /* Selenium 4.+ */
 		/*Waits until selenium finds element, once element is found doesn't stop execution anymore */
 		
 		driver.findElement(By.linkText("LANGUAGE")).click();
